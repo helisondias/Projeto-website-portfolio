@@ -375,12 +375,12 @@ span {
 }
 
 .education-column .education-box {
-    border-left: .2rem solid var(--main-color);
+    border-left: 0.1rem solid var(--main-color);
 }
 
 .education-box .education-content {
     position: relative;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .education-box .education-content::before {
@@ -396,7 +396,7 @@ span {
 
 .education-content .content {
     position: relative;
-    padding: 1.5rem;
+    padding: 1.0rem;
     border: .2rem solid var(--main-color);
     border-radius: .6rem;
     margin-bottom: 2rem;
