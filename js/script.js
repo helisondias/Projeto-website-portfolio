@@ -20,11 +20,11 @@ window.onscroll = () => {
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
 
-        if(top >= offset && top < offset + height) {
+        if (top >= offset && top < offset + height) {
             // active navbar links
             navLinks.forEach(links => {
                 links.classList.remove('active')
-                document.querySelector('header nav a[href*=' + id +']').classList.add('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             })
             // active sections for animation on scroll
             sec.classList.add('show-animate');
@@ -43,10 +43,10 @@ window.onscroll = () => {
     header.classList.toggle('sticky', window.scrollY > 100);
 
     // remove toggle icon and navbar whne click navbar links (scroll)
-        menuIcon.classList.remove('bx-x');
-        navbar.classList.remove('active');
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 
 
-    
-    
+
+
 }
